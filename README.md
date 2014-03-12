@@ -35,7 +35,7 @@ Also, you will be asked to enter the project ID which will be stored in a local 
 In a terminal window activate the program as follows:<br/> 
 
 <pre>  
-  <i>python main.py  --logging_level ['DEBUG', 'INFO', 'WARNING', 'ERROR', 'CRITICAL'] </i> 
+  <i>python main.py  --logging_level [DEBUG | INFO | WARNING | ERROR | CRITICAL] </i> 
 </pre>
 
 You can find more details on how to build the application and run it in Eclipse (or in a Terminal window) here: 
