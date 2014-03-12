@@ -1,8 +1,10 @@
 storage-xmlapi-python-client
 ============================
 <h1>Using XML API</h1>
-	Google Cloud Storage supports a RESTful API, with payload in XML format, to allow programmatic 
-	access to the service.
+	<p>
+		Google Cloud Storage supports a RESTful API, with payload in XML format, to allow programmatic 
+		access to the service.
+	</p>
 	
 <h2>Summary</h2>
 	This command line application shows how to programmatically interact with Google Cloud Storage through the 
