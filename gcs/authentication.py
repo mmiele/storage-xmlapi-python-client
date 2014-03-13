@@ -66,7 +66,7 @@ class GCS_Authentication():
             
         '''
     
-        print "Authenticating application ..."
+        # Authenticate the application.
     
         # Set up a Flow object to be used for authentication.
         flow = flow_from_clientsecrets(CLIENT_SECRETS_FILE, scope=config.app_data['scope'],
@@ -84,7 +84,7 @@ class GCS_Authentication():
             credentials = run_oauth2(flow, credential_storage)
       
    
-        print 'Constructing Google Cloud Storage service...'
+        # Create Google Cloud Storage authenticated client.
     
         # Create an httplib2.Http object to handle our HTTP requests 
         # and authorize it with our good Credentials.
