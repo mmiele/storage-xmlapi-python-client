@@ -1,6 +1,6 @@
 '''
     Contains data shared by all the modules.
-    @note: To use the data a module must use the 
+    @note: To access the data a module must use the 
     statement: import config.
 
 '''
