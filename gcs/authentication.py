@@ -55,11 +55,15 @@ class GCS_Authentication():
             Creates an authenticated HTTP request object. 
             @param force_auth: Flag to recreate the stored credentials [True | False].
             @param debug_level:The level of debugging message to use (0 to 4).  
+            @return: 
+                config.app_data['http_client'] = http_client
+                config.app_data['auth_http_client'] = auth_http
             @note: In order for this function to work you need to populate the 
             client_secrets.json file.
             The credentials are stored in a local file and reused without going through 
             the OAuth2 flow again, unless you force the authentication to be executed.
             This might be required to change the authentication scope.
+            
         '''
     
         print "Authenticating application ..."
