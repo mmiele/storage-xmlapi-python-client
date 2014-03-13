@@ -1,10 +1,10 @@
 '''
-    Command line example to interact with Google Cloud Storage (GCS) 
-    using XML API.
+    This is the main entry point of the application which allows you to 
+    interact with Google Cloud Storage (GCS) using XML API.
     @note: The example displays the response for each request. 
     The debug level is set to 1 by default. This is to display the 
-    request and response header for each request. This allows you to see the actual 
-    traffic on the wire as documented at: 
+    request and response header for each request. 
+    This allows you to see the actual traffic on the wire as documented at: 
     https://developers.google.com/storagedocs/reference-methods.
 '''
 __author__ = 'mielem@gmail.com'
@@ -35,7 +35,12 @@ gflags.DEFINE_enum(
 def __init__app(debug_level):
     '''
       Initializes the application.
-
+      @param degbug_level: The level to display request/response 
+      debugging information.
+      @note: Instantiates the following classes:
+      1) GCS_SimpleUI. It creates and displays the application simple UI.
+      2) GCS_Command. It allows you to issue commands to interact with 
+         the storage service.
     '''
             
     # Instantiate GCS_SimpleUI class.
@@ -51,6 +56,8 @@ def __init__app(debug_level):
 def main(argv):
     '''
         Main entry point for the application.
+        It processes the command line arguments and starts 
+        the application. 
     '''
   
     try:
@@ -75,8 +82,6 @@ def main(argv):
     else:
         debug_level = 0
 
-    # print 'Debug level is: %s ' %debug_level
-  
     # Initialize the application.
     __init__app(debug_level)
     
