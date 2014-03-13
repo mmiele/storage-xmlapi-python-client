@@ -9,7 +9,7 @@ This command line application shows how to programmatically interact with Google
 <a href="https://developers.google.com/storage/docs/xml-api-overview" target="_blank">XML API</a>. 
 It uses a simple interface which allows you to perform tasks such as: list the buckets in a project, 
 list objects in a bucket, create a bucket, create an object and so on. 
-The intent of the application is educational. It should help you to understand the API syntanx (and semantics) 
+The intent of the application is educational. It should help you to understand the API syntax (and semantics) 
 when interacting with Google Cloud Storage. 
 
 <h3>Background</h3>
