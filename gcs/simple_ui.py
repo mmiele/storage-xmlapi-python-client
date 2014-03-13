@@ -13,11 +13,11 @@ MENU = '''
  
          ***** Bucket Operations  *****
          b1 -- GET Bucket           -- List objects in a bucket      
-         b2 -- PUT Bucket           -- Create a bucket. (RW or FC scope) 
-         b3 -- DELETE Bucket        -- Delete a bucket. (RW or FC scope)
-         b4 -- GET Bucket CORS      -- Get a bucket CORS. (FC scope)   
-         b5 -- SET Bucket CORS      -- Set a bucket CORS. (FC scope)  
-         b6 -- GET Bucket Location  -- Get a bucket location. (FC scope)   
+         b2 -- PUT Bucket           -- Create a bucket 
+         b3 -- DELETE Bucket        -- Delete a bucket 
+         b4 -- GET Bucket CORS      -- Get a bucket CORS   
+         b5 -- SET Bucket CORS      -- Set a bucket CORS 
+         b6 -- GET Bucket Location  -- Get a bucket location    
         
          ***** Object Operations  *****
          o1 -- PUT Object           -- Upload an object  
