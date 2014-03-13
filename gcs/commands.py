@@ -3,6 +3,7 @@
     processing user's selection.
     Based on the user's selection, the related Google Cloud Storage
     operation is executed.
+    @version: 1.0
 '''
 
 __author__ = 'mielem@gmail.com'

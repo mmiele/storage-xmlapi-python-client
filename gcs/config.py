@@ -2,6 +2,7 @@
     Contains data shared by all the modules.
     @note: To access the data a module must use the 
     statement: import config.
+    @version: 1.0
 
 '''
 __author__ = 'mielem@gmail.com'
