@@ -17,7 +17,6 @@ Before running the application, assure that you satisfy the following prerequisi
 <ol>
   <li>Install the required software as listed next:
     <ul>
-       <li><a href="https://developers.google.com/api-client-library/python/start/installation" target="_blank">google-api-python-client-1.0</li>
        <li><a href="http://code.google.com/p/httplib2/wiki/Install" target="_blank">httplib2-0.7.7</li>
        <li><a href="http://code.google.com/p/python-gflags/downloads/list" target="_blank">python_gflags-2.0</li>
     </ul>
