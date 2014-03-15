@@ -38,4 +38,4 @@ In a terminal window activate the program as follows:<br/>
 </pre>
 
 You can find more details on how to build the application and run it in Eclipse (or in a Terminal window) here: 
-<a href="http://www.acloudysky.com" target="_blank">acloudysky.com</a>.
+<a href="http://acloudysky.com/2014/03/14/build-google-cloud-storage-xml-api-python-application/" target="_blank">Build a Google Cloud Storage XML API Python Application</a>.
