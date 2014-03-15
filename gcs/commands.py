@@ -1,6 +1,6 @@
 '''
-    Contains the class which provides the entry point for 
-    processing user's selection.
+    Contains the GCS_Command class which provides the entry point for 
+    processing the user's input.
     Based on the user's selection, the related Google Cloud Storage
     operation is executed.
     @version: 1.0

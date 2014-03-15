@@ -1,5 +1,6 @@
 '''
-    Simple UI to interact with Google Cloud Storage.
+    Contains the GCS_SimpleUI class which defines a simple UI 
+    that allows the user to interact with Google Cloud Storage.
     @version: 1.0
 '''
 

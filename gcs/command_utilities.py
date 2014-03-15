@@ -1,8 +1,7 @@
 '''
-    Contains a utility class which defines auxiliary 
-    methods needed to perform storage operations and 
-    interact with the user.
-    Also it contains an error class to handle HTTP request errors.
+    Contains the GCS_Command_Utility utility class which defines auxiliary 
+    methods needed to perform storage operations and interact with the user.
+    Also it contains the GCS_Error class to handle HTTP request errors.
 '''
 import config
 import re

@@ -1,5 +1,6 @@
 '''
-    Contains the class that generates an authenticated HTTP client object. 
+    Contains the GCS_Authentication class that generates an 
+    authenticated HTTP client object. 
     The class uses the user's credentials.
     @version: 1.0
 '''
